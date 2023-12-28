@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style3.css" >
+    <link rel="icon" href="html7.png" type="image/x-icon">
+</head>
+<body>
+    <article> 
+        <h2>LOGIN</h2>
+        <p>I'd really like to here from you!</p>
+
+        <form action="https://httpbin.org/get" method="get">
+           
+                
+            <p>
+            <lable for="login">Login:</lable>
+            <input type="text" name="username"id="username" placeholder="Username" autocomplete="on" required>
+            </p>
+            <p>
+            <lable for="password">Password:</lable>
+            <input type="password" name="lastName"id="password" placeholder="password" autocomplete="on" required>
+            </p>
+            <div class="remeber-forgot">
+                <lable><input type="checkbox">Remember me</lable>
+                <a href="#">Forgot password?</a>
+            </div>
+            <br>
+
+            
+            <button type="reset">Reset</button>
+            <button type="submit" formation="https://httpbin.org/post" formmethood="post">Login</button>
+
+            <div class="register-link">
+                <p>Don't have an account? <a href="#">Register</a> </p>
+            </div>
+        </form>
+</body>
+</html>
